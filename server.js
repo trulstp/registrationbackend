@@ -14,4 +14,4 @@ app.use(express.static(path.resolve(__dirname, "../src/index.js")));
 app.use(express.json())
 app.use(cors())
 app.use('/app', routesUrls)
-app.listen(PORT, () => console.log("server is up and running")) 
+app.listen(PORT, () => console.log("server is up and running fine")) 
