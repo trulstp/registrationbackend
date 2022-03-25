@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Registration Application",
   "main": "server.js",
-  "scripts": {
+  "scripts": {    
     "server": "nodemon server.js",
     "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm",
+   
   },
   "engines": {
     "node": "10.16.0"
@@ -19,7 +20,6 @@
     "express": "^4.17.3",
     "mongoose": "^6.2.8",
     "nodemon": "^2.0.15",
-    "patch-package": "^6.4.7",
     "path": "^0.12.7"
   }
 }
