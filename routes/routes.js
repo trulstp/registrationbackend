@@ -8,10 +8,10 @@ router.get('/students', getAllStudents)
 
 router.post('/register', registerStudent)
 
-router.delete('/:studentID', deleteStudent)
+router.delete('/delete/:studentID', deleteStudent)
 
 router.patch('/update/:studentID', updateStudents) 
 
-router.get('/:studentID', findStudent)
+router.get('/find/:studentID', findStudent)
 
 module.exports = router
