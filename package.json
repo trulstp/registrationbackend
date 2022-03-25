@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Registration Application",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "scripts": {    
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm"
   },
   "engines": {
     "node": "10.16.0"
