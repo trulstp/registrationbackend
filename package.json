@@ -1,0 +1,23 @@
+{
+  "name": "registrationbackend",
+  "version": "1.0.0",
+  "description": "Registration Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "10.16.0"
+  },
+  "author": "Truls Pettersen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
